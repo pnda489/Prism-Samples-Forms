@@ -20,7 +20,7 @@ namespace UsingPageDialogService.ViewModels
 
             DisplayAlertCommand = new DelegateCommand(DisplayAlert);
 
-            DisplayActionSheetCommand = new DelegateCommand(DsiplayActionSheet);
+            DisplayActionSheetCommand = new DelegateCommand(DisplayActionSheet);
 
             DisplayActionSheetUsingActionSheetButtonsCommand = new DelegateCommand(DisplayActionSheetUsingActionSheetButtons);
         }
