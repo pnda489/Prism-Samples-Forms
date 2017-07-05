@@ -31,7 +31,7 @@ namespace UsingPageDialogService.ViewModels
             Debug.WriteLine(result);
         }
 
-        private async void DsiplayActionSheet()
+        private async void DisplayActionSheet()
         {
             var result = await _pageDialogService.DisplayActionSheetAsync("ActionSheet", "Cancel", "Destroy", "Option 1", "Option 2");
             Debug.WriteLine(result);
